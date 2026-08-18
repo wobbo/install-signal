@@ -4,12 +4,14 @@ Install script for Signal Desktop on ARM64 GNOME systems. This script installs t
 
 This repository only provides the installation script. Tested on [Raspberry Pi OS GNOME](https://forums.raspberrypi.com/viewtopic.php?p=2313410#p2313410), but it should also work on other ARM64 GNOME Debian-based systems. Updates: https://github.com/wobbo/signal-desktop/releases
 
+## Latest version
+
 ```bash
-wget -O install-signal.sh 'https://wobbo.org/install/2026-06-12/install-signal_8.21.0.sh'
+wget -O install-signal.sh 'https://wobbo.org/2026-08-18/install-signal.sh'
 chmod +x install-signal.sh
 ./install-signal.sh
 ```
-*Download [install-signal.sh](https://raw.githubusercontent.com/wobbo/signal-desktop/refs/heads/main/install-signal.sh) from GitHub.*
+*Download latest  [install-signal.sh](https://wobbo.org/2026-08-18/install-signal.sh)  from Wobbo.org.*
 
 ---
 
@@ -23,10 +25,10 @@ The screenshot below shows the GNOME launcher icon issue with the unofficial Sig
 
 If you want to install a specific Signal version, use the corresponding script
 *install-signal_\<version\>.sh*, for example:
-[install-signal_6.5.0.sh](https://wobbo.org/install/2026-06-12/install-signal_6.5.0.sh)
+[install-signal_6.5.0.sh](https://wobbo.org/2026-08-18/install-signal_6.5.0.sh)
 
 ```bash
-wget -O install-signal.sh 'https://wobbo.org/install/2026-06-12/install-signal_8.21.0.sh'
+wget -O install-signal.sh 'https://wobbo.org/2026-08-18/install-signal_6.5.0.sh'
 chmod +x install-signal.sh
 ./install-signal.sh
 ```
